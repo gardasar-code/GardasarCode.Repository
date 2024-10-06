@@ -1,0 +1,12 @@
+root = true
+[*]
+end_of_line = crlf
+charset = utf-8
+insert_final_newline = true
+indent_style = space
+trim_trailing_whitespace = true
+
+; 4-column space indentation
+[*.{cs,js,ts,html,cshtml,aspx}]
+indent_size = 4
+tab_width = 4

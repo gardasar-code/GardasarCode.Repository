@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{296AD657-6185-4F1A-813E-DE83F5E94942}"
+	ProjectSection(SolutionItems) = preProject
+		CONTRIBUTING.md = CONTRIBUTING.md
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{202FA4F3-1C1A-4721-AC4E-67606198E314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{23690419-77AB-4CFF-9CB1-EB098CB8CC4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AB55C247-AB2B-492A-A68E-69474F3C298F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardasarCode.Repository", "src\GardasarCode.Repository\GardasarCode.Repository.csproj", "{5B166278-4D0D-4793-B4A7-CE787D806136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB55C247-AB2B-492A-A68E-69474F3C298F} = {296AD657-6185-4F1A-813E-DE83F5E94942}
+		{5B166278-4D0D-4793-B4A7-CE787D806136} = {202FA4F3-1C1A-4721-AC4E-67606198E314}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B166278-4D0D-4793-B4A7-CE787D806136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B166278-4D0D-4793-B4A7-CE787D806136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B166278-4D0D-4793-B4A7-CE787D806136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B166278-4D0D-4793-B4A7-CE787D806136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
