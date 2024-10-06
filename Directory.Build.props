@@ -20,7 +20,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="readme.md" Visible="false" Pack="true" Label="readme" PackagePath="\"/>
+        <None Include="../../readme.md" Visible="false" Pack="true" Label="readme" PackagePath="\"/>
         <None Include="../../license" Visible="false" Pack="true" Label="license" PackagePath="\"/>
     </ItemGroup>
 
