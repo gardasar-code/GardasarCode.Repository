@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AB55C247-AB2B-492A-A68E-69474F3C298F}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\deploy.yml = .github\workflows\deploy.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardasarCode.Repository", "src\GardasarCode.Repository\GardasarCode.Repository.csproj", "{5B166278-4D0D-4793-B4A7-CE787D806136}"
