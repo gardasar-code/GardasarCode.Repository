@@ -2,4 +2,29 @@
 
 # GardasarCode.Repository
 
+## Specifications
+
+```csharp
+public abstract class UserSpecification
+{
+    public sealed class GetUserById : BaseSpecification<User>
+    {
+        public GetUserById(long id, bool asNoTracking)
+        {
+            AsNoTracking = asNoTracking;
+            AddCriteria(i => i.Id == id);
+        }
+    }
+}
+```
+
+## Repository
+
+```csharp
+var context = new DbContext(options);
+var repo = new RepositoryBase<DbContext>(context);
+var spec = new UserSpecification.GetUserById(user.Id, true);
+var result = await repo.FirstOrDefaultAsync(spec);
+```
+
 > **Being supplemented.**
